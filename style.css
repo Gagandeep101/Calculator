@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   background-image: radial-gradient(
     circle,
@@ -9,25 +13,36 @@ body {
   );
   background-repeat: no-repeat;
   height: 100vh;
+  overflow: hidden; 
 }
 h1 {
   color: white;
   text-align: center;
   margin-bottom: 70px;
-  font-size: 50px;
+  font-size: 80px;
 }
 .cal {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  margin: 10%;
+  width: 80%;
   height: fit-content;
+  margin: 8%;
   background: rgba(255, 255, 255, 0.338);
   border-radius: 20px;
 }
-.first_row {
+.cal h3{
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.first_row,.second_row,.third_row,.fourth_row,.fivfth_row {
   display: flex;
+  align-items: center;
   justify-content: center;
+  margin-top: 20px;
+  margin-right: 6px;
 }
 .first_row textarea {
   background-color: rgba(0, 0, 0, 0.603);
@@ -37,34 +52,13 @@ h1 {
   font-size: 20px;
   text-align: center;
   padding: 5px;
-  width: 190px;
-  border: 2px solid white;
+  width: 205px;
+  height: 40px;
+  margin-left: 10px;
+  border: 1px solid white;
   resize: none;
 }
-
-.clear_btn {
-  background-color: rgba(0, 0, 0, 0.603);
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-right: 10px;
-  color: white;
-}
-.submit_btn {
-  background-color: rgba(0, 0, 0, 0.603);
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-right: 10px;
-  color: white;
-  width: 45px;
-}
-.second_row{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  margin-right: 6px;
-}
-.num_1,.num_2,.num_3,.num_4{
+.num_1,.num_2,.num_3,.ope_add,.num_4,.num_5,.num_6,.ope_sub,.num_7,.num_8,.num_9,.ope_mul,.ope_div,.num_0,.dec_poi,.ope_cal,.clear_btn{
   font-size: 20px;
   color:white;
   width: 60px;
@@ -74,6 +68,14 @@ h1 {
   border-radius: 10px;
   border: 1px solid white;
   background-color: rgba(0, 0, 0, 0.603);
-
 }
-
+@media only screen and (max-width: 412px) { 
+  .cal{
+    margin: 5%;
+  }
+  h1{
+    margin-top: 40px;
+    font-size: 70px;
+    margin-bottom: 40px;
+  }
+}  
