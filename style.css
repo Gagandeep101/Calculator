@@ -9,5 +9,53 @@ body {
   );
   background-repeat: no-repeat;
   height: 100vh;
-  
 }
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 50px;
+}
+.cal {
+  display: flex;
+  padding: 20px;
+  margin: 10%;
+  align-content: center;
+  align-self: center;
+  height: fit-content;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.338);
+  border-radius: 20px;
+}
+.first_row {
+  display: flex;
+}
+.first_row textarea {
+  background-color: rgba(0, 0, 0, 0.603);
+  margin-right: 10px;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  width: 250px;
+  border: 2px solid white;
+  resize: none;
+}
+
+.clear_btn {
+  background-color: rgba(0, 0, 0, 0.603);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: white;
+}
+.submit_btn {
+  background-color: rgba(0, 0, 0, 0.603);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: white;
+  width: 45px;
+}
+
