@@ -50,7 +50,7 @@ h1 {
   margin-top: 20px;
   margin-right: 6px;
 }
-.first_row textarea {
+.first_row input {
   background-color: rgba(0, 0, 0, 0.603);
   margin-right: 10px;
   color: white;
