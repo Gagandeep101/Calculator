@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -13,31 +13,37 @@ body {
   );
   background-repeat: no-repeat;
   height: 100vh;
-  overflow: hidden; 
+  overflow: hidden;
 }
 h1 {
   color: white;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   font-size: 80px;
 }
 .cal {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  width: 80%;
+  padding: 40px;
+  width: 35%;
   height: fit-content;
-  margin: 8%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 4px ridge black;
   background: rgba(255, 255, 255, 0.338);
   border-radius: 20px;
 }
-.cal h3{
+.cal h3 {
   font-size: 22px;
   color: white;
   text-align: center;
   margin-bottom: 30px;
 }
-.first_row,.second_row,.third_row,.fourth_row,.fivfth_row {
+.first_row,
+.second_row,
+.third_row,
+.fourth_row,
+.fivfth_row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,30 +58,65 @@ h1 {
   font-size: 20px;
   text-align: center;
   padding: 5px;
-  width: 205px;
+  width: 215px;
   height: 40px;
   margin-left: 10px;
-  border: 1px solid white;
+  border: 2px solid white;
   resize: none;
 }
-.num_1,.num_2,.num_3,.ope_add,.num_4,.num_5,.num_6,.ope_sub,.num_7,.num_8,.num_9,.ope_mul,.ope_div,.num_0,.dec_poi,.ope_cal,.clear_btn{
+.num_1,
+.num_2,
+.num_3,
+.ope_add,
+.num_4,
+.num_5,
+.num_6,
+.ope_sub,
+.num_7,
+.num_8,
+.num_9,
+.ope_mul,
+.ope_div,
+.num_0,
+.dec_poi,
+.ope_cal,
+.clear_btn {
   font-size: 20px;
-  color:white;
+  color: white;
   width: 60px;
   height: 50px;
-  margin-right:12px ;
+  margin-right: 12px;
   margin-left: 12px;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 2px solid white;
   background-color: rgba(0, 0, 0, 0.603);
 }
-@media only screen and (max-width: 412px) { 
-  .cal{
-    margin: 5%;
+.source_link {
+  background-color: rgba(0, 0, 0, 0.603);
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 10px;
+  margin-left: 47%;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.source_link a {
+  color: white;
+  text-decoration: none;
+}
+@media only screen and (max-width: 412px) {
+  .cal {
+    margin-left: 5%;
+    padding: 20px;
+    width: 75%;
+    height: fit-content;
   }
-  h1{
+  h1 {
     margin-top: 40px;
     font-size: 70px;
     margin-bottom: 40px;
   }
-}  
+  .source_link {
+    margin-left: 33%;
+  }
+}
