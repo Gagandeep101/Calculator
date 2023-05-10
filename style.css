@@ -119,13 +119,14 @@ h1 {
     margin-left: 33%;
   }
   .first_row input {
-    width: 161px;
+    width: 150px;
   }
   .cal h3{
     font-size: 20px;
     margin-bottom: 1px;
   }
   .source_link{
+  margin-left: 40%;
     margin-top: 20px;
   }
 }
