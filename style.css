@@ -104,19 +104,22 @@ h1 {
   color: white;
   text-decoration: none;
 }
-@media only screen and (max-width: 360px) and (max-height: 800px) {
+@media only screen and (min-width: 360px) and (min-height: 800px) {
   .cal {
-    margin-left: 5%;
+    margin-left: 4%;
     padding: 20px;
     width: 75%;
     height: fit-content;
   }
   h1 {
-    margin-top: 40px;
-    font-size: 70px;
+    margin-top: 65px;
+    font-size: 50px;
     margin-bottom: 40px;
   }
   .source_link {
     margin-left: 33%;
+  }
+  .first_row input {
+    width: 161px;
   }
 }
