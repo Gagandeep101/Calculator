@@ -112,7 +112,7 @@ h1 {
     height: fit-content;
   }
   h1 {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
   }
   .source_link {
@@ -120,5 +120,12 @@ h1 {
   }
   .first_row input {
     width: 161px;
+  }
+  .cal h3{
+    font-size: 20px;
+    margin-bottom: 1px;
+  }
+  .source_link{
+    margin-top: 20px;
   }
 }
